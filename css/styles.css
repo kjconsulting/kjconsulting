@@ -10,7 +10,7 @@ html, body {
 
 body {
     scroll-snap-type: y mandatory; /* Enable smooth snap scrolling */
-    overflow-y: auto;
+    /* overflow-y: auto; */
     font-family: 'Arial', sans-serif;
 }
 
@@ -19,10 +19,10 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background: #12d0fa;
-    z-index: 0; /* Ensure it's behind all other elements */
+    /* z-index: 0; Ensure it's behind all other elements */
 }
 
 /* Main content */
