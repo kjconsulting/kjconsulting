@@ -7,32 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div id="particles-js">
-        <script type="text/javascript" src="particles.js"></script>
-        <script type="text/javascript" src="app.js"></script>
+    <!-- Fixed particles background -->
+    <div id="particles-js"></div>
 
-        <!-- Content sections should have a higher z-index to appear above the particles -->
+    <!-- Main content with individual sections -->
+    <div class="content">
         <!-- Home Section -->
-        <section id="home" style="position: relative; z-index: 1;">
+        <section id="home">
             <h1>Welcome to JK Consulting</h1>
             <p>Your trusted partner in accounting and consultancy services.</p>
         </section>
         
         <!-- About Us Section -->
-        <section id="about" style="position: relative; z-index: 1;">
+        <section id="about">
             <h2>About Us</h2>
             <p>We are a team of young professionals with a solid background and experience in the field.</p>
             <p>We offer high-quality accounting and employment advisory services for both individuals and legal entities.</p>
         </section>
 
         <!-- Mission and Vision Section -->
-        <section id="mission-vision" style="position: relative; z-index: 1;">
+        <section id="mission-vision">
             <h2>Mission and Vision</h2>
             <p>Our mission is to achieve recognition and acceptance by our clients as an integral tool that generates tangible benefits and supports every step towards excellence, thus driving the continuous improvement of our services.</p>
         </section>
 
         <!-- Our Services Section -->
-        <section id="services" style="position: relative; z-index: 1;">
+        <section id="services">
             <h2>Our Services</h2>
             <h3>Outsourcing Contable</h3>
             <p>Optimizing accounting processes to alleviate workload, ensuring precision and reliability of financial information.</p>
@@ -43,38 +43,35 @@
         </section>
 
         <!-- Scope of Services Section -->
-        <section id="scope" style="position: relative; z-index: 1;">
+        <section id="scope">
             <h2>Scope of Services</h2>
             <h3>Accounting Outsourcing:</h3>
             <ul>
                 <li>Bank Reconciliations</li>
                 <li>Monthly Tax Declarations</li>
                 <li>Financial Statements Preparation</li>
-                <!-- Add more as needed -->
             </ul>
             <h3>Payroll Outsourcing:</h3>
             <ul>
                 <li>Monthly Payroll Processing</li>
                 <li>Calculation of Social Benefits</li>
-                <!-- Add more as needed -->
             </ul>
         </section>
 
         <!-- Contact Us Section -->
-        <section id="contact" style="position: relative; z-index: 1;">
+        <section id="contact">
             <h2>Contact Us</h2>
             <p>Email: <a href="mailto:comercial.kjconsultingsac@gmail.com">comercial.kjconsultingsac@gmail.com</a></p>
             <p>Phone: 993-750-355</p>
         </section>
 
-        <footer style="position: relative; z-index: 1;">
+        <footer>
             <p>© 2024 JK Consulting. All rights reserved.</p>
         </footer>
-    
     </div>
-        
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <!-- External JS libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
