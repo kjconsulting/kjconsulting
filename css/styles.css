@@ -8,10 +8,10 @@ html , body, header, div, h1 {
 }
 
 /* Enable vertical scrolling snap */
-/* body {
+body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-} */
+}
 
 /* Particles container styling */
 #particles-js {
