@@ -19,12 +19,10 @@ body {
 
 /* Particles container styling */
 #particles-js {
-    position: absolute; /* Ensures full coverage */
-    top: 0;
-    left: 0;
+    position: fixed;
+    background:#12d0fa;
     width: 100%;
     height: 100%;
-    z-index: 0; /* Behind other content but above the background */
 }
 
 /* Sections overlaying particles */
