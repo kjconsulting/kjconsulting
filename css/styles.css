@@ -1,24 +1,28 @@
-/* html , body, header, div, h1 {
-    display: block;
-    -webkit-text-size-adjust: 100%;
-    width: 100%;
-    height: 100%;
+/* Basic Reset */
+html, body {
     margin: 0;
     padding: 0;
-} */
-
-/* Enable vertical scrolling snap */
-body {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+    width: 100%;
+    height: 100%; /* Full height */
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-/* Particles container styling */
+body {
+    scroll-snap-type: y mandatory; /* Smooth scrolling effect */
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: relative; /* Establishes a positioning context for children */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Particles container fixed behind all content */
 #particles-js {
     position: fixed;
-    background:#12d0fa;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    background: #12d0fa;
+    z-index: 0; /* Behind all content */
 }
 
 /* Sections overlaying particles */
