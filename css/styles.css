@@ -1,11 +1,11 @@
-html , body, header, div, h1 {
-    /* display: block; */
+/* html , body, header, div, h1 {
+    display: block;
     -webkit-text-size-adjust: 100%;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-}
+} */
 
 /* Enable vertical scrolling snap */
 body {
