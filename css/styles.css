@@ -9,7 +9,7 @@ html, body {
 
 body {
     scroll-snap-type: y mandatory; /* Smooth scrolling effect */
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-y: scroll; /* Enable vertical scrolling */
     position: relative; /* Establishes a positioning context for children */
     font-family: 'Arial', sans-serif;
 }
@@ -37,6 +37,7 @@ section {
     justify-content: center;
     text-align: center;
     padding: 20px;
+    box-sizing: border-box; /* Include padding and border in width and height */
     background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to see particles */
     z-index: 1; /* Ensures sections are above the particles */
 }
@@ -78,7 +79,7 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     z-index: 1; /* Ensure footer is above particles */
 }
