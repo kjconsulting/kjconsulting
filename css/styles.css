@@ -1,4 +1,4 @@
-html , body, header, div, h1, .hero, .topnav, .inner-wrapper{
+html , body, header, div, h1 {
     display: block;
     -webkit-text-size-adjust: 100%;
     width: 100%;
@@ -8,10 +8,10 @@ html , body, header, div, h1, .hero, .topnav, .inner-wrapper{
 }
 
 /* Enable vertical scrolling snap */
-body {
+/* body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-}
+} */
 
 /* Particles container styling */
 #particles-js {
