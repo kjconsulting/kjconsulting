@@ -9,31 +9,39 @@ html, body {
 
 body {
     /* scroll-snap-type: y mandatory;  */
+    transition: background-color 0.5s ease; /* Smooth transition for background color change */
     overflow-y: auto;
-    font-family: 'Nunito Sans', Arial, sans-serif; /* A more modern font family */
-    /* position: absolute; */
-    /* z-index: 1; */
+    font-family: 'Nunito Sans', Arial, sans-serif; 
+}
+
+/* Adds a wrapper for navigation to manage spacing more effectively */
+.nav-container {
+    /* position: fixed; */
+    background-color: #222; /* Background color of the navbar */
+    padding: 0 2%; /* Adds padding on both sides */
 }
 
 .top-nav {
-    display: flex; /* Flexbox layout for the navbar */
-    justify-content: space-between; /* Distribute space evenly between the logo and navigation links */
-    align-items: center; /* Center items vertically */
-    background-color:#222;
-    padding: 10px 20px; /* Padding for some spacing around the items */
-    /* position: fixed; */
+    display: flex;
+    justify-content: space-between; /* Keeps logo on the left and menu on the right */
+    align-items: center;
+    /* width: 100%; */
+    padding: 10px 10px;
 }
 
 .top-nav .logo {
-    color: white; /* Logo text color */
-    font-size: 20px; /* Larger font size for the logo */
+    color: white;
+    font-size: 30px; /* Adjust the size as needed */
 }
 
 .top-nav ul {
-    display: flex; /* Flexbox for the list to align horizontally */
-    list-style-type: none; /* Removes bullet points from the list */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end; /* Aligns navigation items to the right */
+    align-items: center;
+    /* width: 100%; */
 }
 
 .top-nav ul li {
@@ -41,23 +49,22 @@ body {
 }
 
 .top-nav ul li a {
-    color: white; /* Links color */
-    text-decoration: none; /* No underlines on the links */
-    font-size: 16px; /* Font size of links */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .top-nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover for better UX */
+    text-decoration: underline;
 }
 
-/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
     .top-nav ul li {
-        margin-right: 10px; /* Less margin on smaller screens */
+        margin-right: 10px; /* Smaller margin for smaller screens */
     }
 
     .top-nav ul li a {
-        font-size: 14px; /* Smaller font size on smaller screens */
+        font-size: 14px; /* Smaller font size for smaller screens */
     }
 }
 
