@@ -153,6 +153,19 @@ h4 {
     /* margin-left: 75px; */
 }
 
+#services p {
+    font-size: 20px;
+    font-style:oblique;
+    /* line-height: 10px; */
+}
+
+#scope p {
+    font-size: 20px;
+    font-style:oblique;
+    line-height: 10px;
+    /* margin-bottom: -15px; */
+}
+
 /* Sections styling */
 section {
     width: 100%;
@@ -187,6 +200,12 @@ section {
 
 #contact {
     background-color:burlywood;
+}
+
+#contact p {
+    font-size: 25px;
+    font-style:oblique;
+    line-height: 10px;
 }
 
 footer {
